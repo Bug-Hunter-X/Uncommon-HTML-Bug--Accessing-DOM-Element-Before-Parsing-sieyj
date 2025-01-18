@@ -1,0 +1,1 @@
+This repository demonstrates a subtle HTML/JavaScript bug related to accessing DOM elements before they are fully parsed by the browser.  The bug.html file shows the incorrect code, resulting in an error. The solution.html file offers a corrected version using event listeners or ensuring the element exists before accessing it.
