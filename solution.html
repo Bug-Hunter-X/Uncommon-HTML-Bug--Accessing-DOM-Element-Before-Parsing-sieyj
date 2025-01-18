@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug Solution</title></head><body> <div id="myDiv"></div> <script>  // Correct approach using an event listener to wait for the DOMContentLoaded event  document.addEventListener('DOMContentLoaded', function() {     document.getElementById('myDiv').innerHTML = 'Hello!';  }); </script></body></html>
